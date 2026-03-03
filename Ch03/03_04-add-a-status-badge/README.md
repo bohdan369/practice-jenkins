@@ -3,7 +3,7 @@ Status Badges are dynamically generated images that communicate whether a build 
 
 Following is an example status badge for a passing build:
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) > my > [![Build Status](http://jenk.jenkins-test.keenetic.pro:8080/buildStatus/icon?job=script)](http://jenk.jenkins-test.keenetic.pro:8080/job/script/)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) > my > [![Build Status](http://jenk.jenkins-test.keenetic.pro:8080/job/script/lastBuild/badge/icon)](http://jenk.jenkins-test.keenetic.pro:8080/job/script/lastBuild/)
 
 
 
