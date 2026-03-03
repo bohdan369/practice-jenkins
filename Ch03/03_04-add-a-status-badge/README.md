@@ -3,7 +3,9 @@ Status Badges are dynamically generated images that communicate whether a build 
 
 Following is an example status badge for a passing build:
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) > my > [![Build Status](http://jenk.jenkins-test.keenetic.pro/buildStatus/icon?job=script)]
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) > my > [![Build Status](http://jenk.jenkins-test.keenetic.pro:8080/buildStatus/icon?job=script)](http://jenk.jenkins-test.keenetic.pro:8080/job/script/)
+
+
 
 Typically, status badges are placed in the README file for a GitHub repository.  However, they can also be embedded in web pages or other online documents.
 
